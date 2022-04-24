@@ -90,11 +90,11 @@ a{
         .card-img{
             position: relative;
             width: calc(100% - 51%);
-            background-image: url('/images/image-header-desktop.jpg');
+            background-image: url('../images/image-header-desktop.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             @media screen and (max-width : 768px){
-                background-image: url('/images/image-header-mobile.jpg');
+                background-image: url('../images/image-header-mobile.jpg');
                 order: 1;
                 width: 100%;
                 height: 16rem;

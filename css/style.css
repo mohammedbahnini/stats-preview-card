@@ -116,13 +116,13 @@ a {
 .container .card .card-img {
   position: relative;
   width: calc(100% - 51%);
-  background-image: url("/images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .container .card .card-img {
-    background-image: url("/images/image-header-mobile.jpg");
+    background-image: url("../images/image-header-mobile.jpg");
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
